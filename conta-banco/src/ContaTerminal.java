@@ -22,15 +22,12 @@ public class ContaTerminal {
         System.out.print("Usuário: ");
         int conta = scanner.nextInt();
 
-        float saldo = 237.48f; // Adicionado um ponto e vírgula e f para indicar que é um float
+        float saldo = 237.48f;
 
         // Exibir a mensagem conta criada
         System.out.println("Olá " + nome + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + conta + " e seu saldo " + saldo + " já está disponível para saque.");
 
-        // Fechar o Scanner
         scanner.close();
-
-        // Exibir a mensagem conta criada
 
 
 
